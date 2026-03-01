@@ -1,5 +1,7 @@
 from pathlib import Path
 import json
+import os
+import urllib.request
 
 import numpy as np
 import torch
@@ -14,8 +16,30 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 ARTIFACTS_PATH = PROJECT_ROOT / "artifacts" / "bacteria_classifier.pt"
 TAXONOMY_PATH = PROJECT_ROOT / "artifacts" / "taxonomy.json"
 
+def download_model_if_needed():
+    """Download model from URL if not present locally."""
+    if ARTIFACTS_PATH.exists():
+        return
+    
+    model_url = os.getenv("MODEL_URL")
+    if not model_url:
+        raise FileNotFoundError(
+            f"Model not found at {ARTIFACTS_PATH} and MODEL_URL environment variable not set. "
+            "See STREAMLIT_CLOUD_DEPLOY.md for setup instructions."
+        )
+    
+    st.info(f"Downloading model from {model_url}... This may take a minute on first run.")
+    ARTIFACTS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        urllib.request.urlretrieve(model_url, str(ARTIFACTS_PATH))
+        st.success("Model downloaded successfully!")
+    except Exception as e:
+        st.error(f"Failed to download model: {e}")
+        raise
+
 @st.cache_resource
 def load_model_and_mapping():
+    download_model_if_needed()
     if not ARTIFACTS_PATH.exists():
         raise FileNotFoundError(f"Model file not found: {ARTIFACTS_PATH}")
 
