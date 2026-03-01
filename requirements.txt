@@ -1,0 +1,15 @@
+torch
+torchvision
+torchaudio
+opencv-python
+numpy
+matplotlib
+Pillow
+scikit-learn
+fastapi
+uvicorn[standard]
+python-multipart
+
+gunicorn
+streamlit
+

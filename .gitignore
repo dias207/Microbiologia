@@ -1,0 +1,33 @@
+# Virtual env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.vscode/
+.idea/
+
+# Data / artifacts
+artifacts/
+organized_images/
+user_input_taxonomy.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+docker-compose.override.yml
+
+# Byte-compiled / others
+*.egg-info/
+build/
+dist/
