@@ -1,0 +1,132 @@
+{
+  "escherichia_coli": {
+    "family": "Enterobacteriaceae",
+    "genus": "Escherichia",
+    "species": "E. coli"
+  },
+  "salmonella_enterica": {
+    "family": "Enterobacteriaceae",
+    "genus": "Salmonella",
+    "species": "S. enterica"
+  },
+  "shigella_dysenteriae": {
+    "family": "Enterobacteriaceae",
+    "genus": "Shigella",
+    "species": "S. dysenteriae"
+  },
+  "yersinia_pestis": {
+    "family": "Enterobacteriaceae",
+    "genus": "Yersinia",
+    "species": "Y. pestis"
+  },
+  "campylobacter_jejuni": {
+    "family": "Campylobacteraceae",
+    "genus": "Campylobacter",
+    "species": "C. jejuni"
+  },
+  "helicobacter_pylori": {
+    "family": "Helicobacteraceae",
+    "genus": "Helicobacter",
+    "species": "H. pylori"
+  },
+  "staphylococcus_aureus": {
+    "family": "Staphylococcaceae",
+    "genus": "Staphylococcus",
+    "species": "S. aureus"
+  },
+  "Campylobacteriaceae_2": {
+    "family": "Neisseriaceae",
+    "genus": "Neisseria",
+    "species": "Neisseria meningitidis"
+  },
+  "Campylobacteriaceae_3": {
+    "family": "Vibrionaceae",
+    "genus": "Vibrio",
+    "species": "Vibrio cholerae"
+  },
+  "Campylobacteriaceae_Helicobacter_2": {
+    "family": "Campylobacteriaceae",
+    "genus": "",
+    "species": "C. jejuni, C. fetus, C. coli, C. lari, C. hyointestinalis, C. upsaliensis, C. concisus, C. sputorum, C. rectus"
+  },
+  "Campylobacteriaceae_Helicobacter": {
+    "family": "Bacillaceae",
+    "genus": "Clostridium",
+    "species": "Clostridium tetani"
+  },
+  "Enterobacteriaceae_Escherichia_2": {
+    "family": "Brucellaceae",
+    "genus": "Brucella",
+    "species": ""
+  },
+  "Enterobacteriaceae_Escherichia_3": {
+    "family": "Enterobacteriaceae",
+    "genus": "",
+    "species": "E. coli"
+  },
+  "Enterobacteriaceae_Escherichia_4": {
+    "family": "Bacillaceae",
+    "genus": "Bacillus",
+    "species": "B. anthracis"
+  },
+  "Enterobacteriaceae_Escherichia": {
+    "family": "Streptococcaceae",
+    "genus": "Streptococcus",
+    "species": "S. pyogenes"
+  },
+  "Enterobacteriaceae_Salmonella_2": {
+    "family": "Francisellaceae",
+    "genus": "Francisella",
+    "species": "Francisella tularensis"
+  },
+  "Enterobacteriaceae_Salmonella_3": {
+    "family": "Leptospiraceae",
+    "genus": "Leptospira",
+    "species": "L. interrogans"
+  },
+  "Enterobacteriaceae_Salmonella_4": {
+    "family": "Mycobacteriaceae",
+    "genus": "Mycobacterium",
+    "species": ""
+  },
+  "Enterobacteriaceae_Salmonella": {
+    "family": "Enterobacteriaceae",
+    "genus": "",
+    "species": "Y. pestis"
+  },
+  "Enterobacteriaceae_Shigella_1": {
+    "family": "Bacillaceae",
+    "genus": "Clostridium",
+    "species": "Clostridium botulinum"
+  },
+  "Enterobacteriaceae_Shigella_2": {
+    "family": "Helicobacteraceae",
+    "genus": "",
+    "species": "Helicobacter"
+  },
+  "Enterobacteriaceae_Shigella_3": {
+    "family": "Enterobacteriaceae",
+    "genus": "",
+    "species": "Salmonella typhi"
+  },
+  "Enterobacteriaceae_Yersinia_1": {
+    "family": "Bacillaceae",
+    "genus": "Clostridium",
+    "species": "C. perfringens, C. novyi, C. septicum"
+  },
+  "Enterobacteriaceae_Yersinia_2": {
+    "family": "Neisseriaceae",
+    "genus": "Neisseria",
+    "species": "Neisseria gonorrhoeae"
+  },
+  "Enterobacteriaceae_Yersinia_3": {
+    "family": "Mycobacteriaceae",
+    "genus": "Mycobacterium",
+    "species": "M. tuberculosis, M. microti, M. avium"
+  },
+  "Micrococcacae": {
+    "family": "Micrococcaceae",
+    "genus": "Staphylococcus",
+    "species": "S. aureus, S. epidermidis"
+  }
+}
